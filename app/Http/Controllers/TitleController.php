@@ -2,10 +2,10 @@
 
 namespace Scan\Http\Controllers;
 
-use Scan\worker;
+use Scan\title;
 use Illuminate\Http\Request;
 
-class WorkerController extends Controller
+class TitleController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -41,10 +41,10 @@ class WorkerController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \Scan\worker  $worker
+     * @param  \Scan\title  $title
      * @return \Illuminate\Http\Response
      */
-    public function show(worker $worker)
+    public function show(title $title)
     {
         //
     }
@@ -52,10 +52,10 @@ class WorkerController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \Scan\worker  $worker
+     * @param  \Scan\title  $title
      * @return \Illuminate\Http\Response
      */
-    public function edit(worker $worker)
+    public function edit(title $title)
     {
         //
     }
@@ -64,10 +64,10 @@ class WorkerController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \Scan\worker  $worker
+     * @param  \Scan\title  $title
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, worker $worker)
+    public function update(Request $request, title $title)
     {
         //
     }
@@ -75,10 +75,10 @@ class WorkerController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \Scan\worker  $worker
+     * @param  \Scan\title  $title
      * @return \Illuminate\Http\Response
      */
-    public function destroy(worker $worker)
+    public function destroy(title $title)
     {
         //
     }

@@ -2,10 +2,10 @@
 
 namespace Scan\Http\Controllers;
 
-use Scan\worker;
+use Scan\departament;
 use Illuminate\Http\Request;
 
-class WorkerController extends Controller
+class DepartamentController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -41,10 +41,10 @@ class WorkerController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \Scan\worker  $worker
+     * @param  \Scan\departament  $departament
      * @return \Illuminate\Http\Response
      */
-    public function show(worker $worker)
+    public function show(departament $departament)
     {
         //
     }
@@ -52,10 +52,10 @@ class WorkerController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \Scan\worker  $worker
+     * @param  \Scan\departament  $departament
      * @return \Illuminate\Http\Response
      */
-    public function edit(worker $worker)
+    public function edit(departament $departament)
     {
         //
     }
@@ -64,10 +64,10 @@ class WorkerController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \Scan\worker  $worker
+     * @param  \Scan\departament  $departament
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, worker $worker)
+    public function update(Request $request, departament $departament)
     {
         //
     }
@@ -75,10 +75,10 @@ class WorkerController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \Scan\worker  $worker
+     * @param  \Scan\departament  $departament
      * @return \Illuminate\Http\Response
      */
-    public function destroy(worker $worker)
+    public function destroy(departament $departament)
     {
         //
     }
